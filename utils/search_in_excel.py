@@ -1,5 +1,5 @@
 import openpyxl
-from utils.consts import KEYS
+from consts import KEYS
 
 def find_user_code_range(file_path, user_code, column='G') -> str:
     workbook = openpyxl.load_workbook(file_path)
